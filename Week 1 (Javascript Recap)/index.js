@@ -7,8 +7,8 @@ const fruitsList = ["Mango", "Orange", "Pineapple", "banana"];
 // Note - It doesnt change the array length
 // for (let i = 0 ; i < fruitsList.length; i++)  fruitsList[i]
 
-const fruitListPlural = fruitsList.map(function(fruit) {
-   return fruit + 's';
+const fruitListPlural = fruitsList.map(function (fruit) {
+    return fruit + 's';
 })
 
 console.log(fruitListPlural, "fruitsList");
@@ -16,7 +16,7 @@ console.log(fruitListPlural, "fruitsList");
 // Example 2
 // Where i want to tell if the employee is eligible for a gratuity or not ?
 // Gratuity is if some completes 5 years with the company, the company gives them a reward 
-const employeeList =  [
+const employeeList = [
     {
         name: "Prabh",
         age: 28,
@@ -59,3 +59,48 @@ const employeeeNotEligible = modifiedEmployeeList.filter((employee) => {
 })
 
 console.log(employeeeNotEligible, "Not Eligible");
+
+
+// Assignemnt 1
+
+const products = [{
+    name: 'Product 1',
+    price: 10
+},
+{
+    name: 'Product 2',
+    price: 20
+},
+{
+    name: 'Product 3',
+    price: 30
+}];
+
+let total = 0;
+
+for (let i = 0 ; i < products.length; i++) {
+    total = total + products[i].price
+}
+
+// accumulator == total
+// currentValue == product[i]
+
+const totalPrice = products.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.price
+}, 0);
+
+console.log(totalPrice, "total Price");
+
+// Reduce Example
+
+let listOfNumbers = [20, 40, 400, 50, 100, 200, -10];
+
+// I want to see which number is the highest value inside the array
+
+let highestValue = listOfNumbers.reduce((accumulator, currentValue) => {
+    return accumulator > currentValue ? accumulator : currentValue
+}, -Infinity)
+
+console.log(highestValue, "value");
+// Infinity--> Largest Possible Value
+// -Infinity --> Leaste Possible value
