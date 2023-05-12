@@ -18,6 +18,9 @@ const App = () => {
     <div>
         <Header />
         <Banner />
+        {/* You have to create a footer component and add it here */}
+        {/* Your footer component can have Social Media Links, Some Quick actions
+         like Terms & Condition  */}
     </div>
   )
 }
