@@ -1,0 +1,37 @@
+/* Here i am directly targetting a html ELEMENT */
+/* header { 
+    background: red;
+} */
+
+.header-container {
+    background: rgb(226, 226, 226);
+}
+
+.nav-container {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+
+    /* padding: 20px; */ 
+    /* TOP RIGHT BOTTOM LEFT */
+
+    /* padding: 20px 30px */
+    /* TOP AND BOTTOM = 20px, LEFT AND RIGHT = 30px */
+
+    /* padding: 20px 30px 40px 80px */
+    /* TOP = 20px , RIGHT = 30px; BOTTOM = 40px; LEFT = 80px */
+}
+
+.nav-item:hover {
+    background-color: maroon;
+    cursor: pointer;
+}
