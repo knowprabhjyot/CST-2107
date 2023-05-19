@@ -1,0 +1,12 @@
+.card-container {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

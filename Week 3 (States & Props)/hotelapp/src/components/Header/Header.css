@@ -1,0 +1,12 @@
+.header-container {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-logo {
+  color: white;
+}

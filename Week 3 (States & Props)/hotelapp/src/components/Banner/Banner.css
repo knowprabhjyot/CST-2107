@@ -1,0 +1,20 @@
+.banner-container {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  padding: 40px;
+}
+
+.banner-title {
+  font-size: 70px;
+  margin: 0;
+}
+
+.banner-subtitle {
+  font-size: 40px;
+}
