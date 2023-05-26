@@ -1,0 +1,37 @@
+.form {
+    border: 1px solid rgb(231, 231, 231);
+    background-color: bisque;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.formControl {
+    padding: 8px;
+}
+
+.formControl label {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.formControl input {
+    padding: 8px;
+    width: 200px;
+    border: none;
+}
+
+.formControl select {
+    width: 100px;
+}
+
+.button {
+    background-color: rgb(200, 88, 23);
+    color: white;
+    margin-top: 20px;
+}
+

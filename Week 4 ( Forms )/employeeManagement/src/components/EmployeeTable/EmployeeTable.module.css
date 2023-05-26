@@ -1,0 +1,9 @@
+.table {
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.table tr, .table tr td {
+    border: 1px solid brown;
+    padding: 10px;
+}
