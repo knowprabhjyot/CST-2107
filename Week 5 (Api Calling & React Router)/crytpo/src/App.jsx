@@ -15,7 +15,7 @@ function App() {
       element: <HomePage />
     },
     {
-      path: '/crypto',
+      path: '/crypto/:coin',
       element: <CryptoDetailPage />
     },
     {

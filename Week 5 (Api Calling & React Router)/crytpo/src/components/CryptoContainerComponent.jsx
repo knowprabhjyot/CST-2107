@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import CryptoTableComponent from "./CryptoTableComponent";
+import { TextField } from "@mui/material";
 
 const CryptoContainerComponent = () => {
 
@@ -19,13 +21,22 @@ const CryptoContainerComponent = () => {
         setCryptoData(convertedJSONData);
     }
 
+    // Try to write the search logic (So its an inclass assignment so it won't be graded)
+
+    // I will give you another assignment where 
+
     return (
         <div>
-            {
+
+            {/* You have to add search field through which you can filter cryptoData */}
+            <TextField />
+
+            {/* {
                 cryptoData.map((cryptoInfo) => {
                     return <div>{cryptoInfo.name}</div>
                 })
-            }
+            } */}
+            <CryptoTableComponent data={cryptoData} />
         </div>
     )
 }
