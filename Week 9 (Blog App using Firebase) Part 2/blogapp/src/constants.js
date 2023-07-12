@@ -1,0 +1,1 @@
+export const CategoryList = ["Tech", "News", "Gaming", "Travel", "Food"];
